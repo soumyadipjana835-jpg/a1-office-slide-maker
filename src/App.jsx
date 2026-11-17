@@ -8,6 +8,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Composer from "./components/Composer.jsx";
 import Conversation from "./components/Conversation.jsx";
 import { Hero, ModeCards, Suggestions } from "./components/EmptyState.jsx";
+import CreditChip from "./components/CreditChip.jsx";
 
 const FONTS = {
   Inter: "'Inter', ui-sans-serif, system-ui, sans-serif",
@@ -356,6 +357,7 @@ export default function App() {
           )}
         </main>
         <DialRoot position="top-right" defaultOpen={false} />
+        <CreditChip />
       </div>
     </TokensContext.Provider>
   );
